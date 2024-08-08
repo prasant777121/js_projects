@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(34, 26, 26);
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    border-radius: 20px;
+    border: 2px solid black;
+   
+    width: 20%;
+    height: 50%;
+    background-color: white;
+
+}
+
+input {
+    width: 80%;
+    margin:10px 0px;
+    padding:5px 0px;
+    background-color: white;
+    display: inline-flex; /* Corrected the property name */
+}
+p{
+    width: 80%;
+    margin:10px 0px;
+    background-color: transparent;
+    font-size: x-large;
+    font-weight: 500;
+
+}
+button{
+    width: 80%;
+    margin:20px 0px;
+    background-color: purple;
+    padding:10px 0px;
+    font-size: larger;
+}

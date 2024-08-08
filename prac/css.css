@@ -1,0 +1,75 @@
+
+*{
+    text-align: center;
+    color: black;
+    /* background-color: palegoldenrod;
+    background-image: url('img.jpg');
+    height: 100%;
+    width: 100%; */
+   
+}
+body{
+    background-image:url(./img.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+h1.h1,h2{
+    background-color: yellow;
+}
+h1.h1{
+    background-color: red;
+}
+h1.h1{
+    background-color: blue;
+}
+p{
+    color:red;
+}
+p.p1{
+    color: blue;
+/* The code snippet sets the text alignment to center and the text color to black for all elements. It also defines various background colors and styles for different headings, paragraphs, and classes. It also sets a hover effect for an element with the class "pr */
+}
+p.p1.p2{
+    color: black;
+}
+.ok .okk{
+    background-color: red;
+}
+.h24{
+    background-color: blue;
+}
+.name{
+    border: 10px solid black;
+    background-color: aliceblue;
+    margin: 200px;
+    padding: 20px;
+}
+#tables{
+    background-color: aqua;
+}
+.prasant:hover{
+    width:30%;
+    background-color: brown;
+  
+}
+table{
+    font-size: 40px;
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:hover{background-color: #0b6868;
+display: none;}
+
+th{
+    background-color: brown;
+}
+
